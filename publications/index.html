@@ -13,8 +13,10 @@
       
       
       
-        <link rel="prev" href="../projects/parapet/">
+        <link rel="prev" href="../members/">
       
+      
+        <link rel="next" href="../projects/parapet/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +24,7 @@
     
     
       
-        <title>Photos - SYNE Lab</title>
+        <title>Publications - SYNE Lab</title>
       
     
     
@@ -85,7 +87,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#photos" class="md-skip">
+        <a href="#publications" class="md-skip">
           Skip to content
         </a>
       
@@ -121,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Photos
+              Publications
             
           </span>
         </div>
@@ -277,10 +279,19 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../publications/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -289,6 +300,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -360,30 +372,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Photos
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../photos/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -392,35 +384,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#dec-2023" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dec 2023
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -445,23 +408,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#dec-2023" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dec 2023
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -475,18 +421,67 @@
                   
 
 
-<h1 id="photos">Photos</h1>
-<h2 id="dec-2023">Dec 2023</h2>
-<div class="grid cards">
-<figure>
-  <a class="glightbox" href="../img/lab-dinner-Dec-2023.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Image title" max-width="200px" src="../img/lab-dinner-Dec-2023.jpg" width="80%" /></a>
-  <figcaption>Group dinner at Schine Center, Dec 2023.<br/>
-    From left to right: Mahmudul Hasan, Kritika Verma, 
-    Eric Rodriguez,
-    Siwei Zhang,
-    Endadul Hoque, and Mahbub Alam 
-  </figcaption>
-</figure>
+<h1 id="publications">Publications</h1>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js"></script>
+
+<p><bibtex src="../projects/ref.bib"></bibtex></p>
+<!-- Template credits: https://alexpacini.gitlab.io/pubs.html -->
+
+<div class="bibtex_structure">
+    <div class="sections bibtextypekey">
+        <div class="section book">
+            <h1><strong>B</strong>ooks</h1>
+            <div class="sort year" extra="DESC date">
+                <div class="templates"></div>
+            </div>
+        </div>
+        <div class="section article">
+            <h1><strong>J</strong>ournal <strong>A</strong>rticles</h1>
+            <div class="sort year" extra="DESC date">
+                <div class="templates"></div>
+            </div>
+        </div>
+        <div class="section inproceedings">
+            <h1><strong>C</strong>onference and <strong>W</strong>orkshop <strong>P</strong>apers</h1>
+            <div class="sort year" extra="DESC date">
+                <div class="templates"></div>
+            </div>
+        </div>
+        <div class="section misc|phdthesis|mastersthesis|bachelorsthesis|techreport">
+            <h1><strong>O</strong>ther <strong>P</strong>ublications</h1>
+            <div class="sort year" extra="DESC date">
+                <div class="templates"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="bibtex_display">
+    <div class="bibtex_template">
+        <ul><li><p>
+            <span class="if author">
+                <span class="author"><span class="first_initial"></span> <span class="last"></span></span>,
+            </span>
+            <span class="if title">
+                <a class="url"><strong>"<span class="title"></span></strong>,"</a>
+            </span>
+            <span class="if journal"><em><span class="journal"></span></em>,</span>
+            <span class="if booktitle"><em><span class="booktitle"></span></em></span>
+            <span class="if series">(<strong><span class="series"></span></strong>),</span>
+            <span class="if editor"><span class="editor"></span> (editors),</span>
+            <span class="if publisher"><em><span class="publisher"></span></em>,</span>
+            <span class="if institution"><span class="institution"></span>,</span>
+            <span class="if address"><span class="address"></span>,</span>
+            <span class="if volume">vol. <span class="volume"></span>,</span>
+            <span class="if journal number">(<span class="number"></span>),</span>
+            <span class="if pages"> pp. <span class="pages"></span>,</span>
+            <span class="if month"><span class="month"></span>,</span>
+            <span class="if year"><span class="year"></span>.</span>
+            </br><span class="if doi">
+                &emsp;DOI: <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi"><span class="doi"></span></a>
+            </span>
+        <p></li></ul>
+    </div>
 </div>
 
 
