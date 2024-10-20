@@ -1,7 +1,7 @@
 [
     {
-        "title": "Congratulations to both Siwei and Polina for individually receiving a Student Travel Grant to attend IEEE SecDev 2024 in Oct 2024",
-         "date": "Sep 2024"
+        "title": "Congratulations to Siwei for successfully presenting iConPAL at IEEE SecDev 2024 in Oct 2024",
+        "date": "Oct 2024"        
     },
     {
         "title": "Polina attended the TAPIA conference 2024 at San Diego, CA to represent EECS@SU",
@@ -9,6 +9,10 @@
          "icon": "hyperlink-transparent.svg",
          "link": "https://tapiaconference.cmd-it.org/"
     },
+    {
+        "title": "Congratulations to both Siwei and Polina for individually receiving a Student Travel Grant to attend IEEE SecDev 2024 in Oct 2024",
+         "date": "Sep 2024"
+    },    
     {
         "title": "Our paper \"iConPAL\" will appear in IEEE SecDev 2024. Congrats to the team.",
         "date": "Aug 2024"
