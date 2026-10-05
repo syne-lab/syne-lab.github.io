@@ -1,5 +1,14 @@
 [
     {
+        "title": "Our paper \"KnitFuzz\" appeared at ACM CODASPY 2026.",
+         "date": "Jun 2026"
+    },
+    {
+        "title": "Our paper \"How Faithfully Do LLMs Implement Mutated Specifications? An Empirical Study of Grammar-Guided Protocol Testing\" appeared at the workshop EXPRESS 2026, co-located with ISSTA 2026.",
+         "date": "Oct 2026"
+    },
+
+    {
         "title": "Our paper \"FuzzEval\" received the <strong>Best Paper Award</strong> in SBFT workshop, co-located with ICSE 2025.",
          "date": "Apr 2025",
          "icon": "hyperlink-transparent.svg",
